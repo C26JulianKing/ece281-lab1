@@ -65,8 +65,8 @@ architecture test_bench of sevenSegDecoder_tb is
 
   -- declare any additional components required
   
-  signal w_sw : std_logic_vector (3 downto 0):= (others=> '0');
-  signal w_seg : std_logic_vector (6 downto 0):= (others=> '0');
+  signal w_sw : std_logic_vector (3 downto 0);
+  signal w_seg : std_logic_vector (6 downto 0);
 
   
 begin
